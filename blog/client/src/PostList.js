@@ -10,7 +10,7 @@ const PostList = () => {
     let res = { data: [] };
 
     try {
-      res = await axios.get("http://localhost:4002/posts");
+      res = await axios.get("http://posts.com/posts");
     } catch (err) {
       console.log(err);
     }
